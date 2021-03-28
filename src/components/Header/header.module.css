@@ -1,0 +1,36 @@
+
+.headerWrapper{
+    border-bottom: 4px solid #D10024 ;
+
+}
+.topHeader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1E1F29;
+}
+.topHeader_items{
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+}
+
+.topHeader_items a{
+    padding-right: 10px;
+}
+.topHeader_items a:hover{
+    color: #D10024;
+
+    outline: none;
+}
+
+.header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #15161D;
+}
+.header_items{
+    margin: 0 auto;
+    width: 1200px;
+
+
+}

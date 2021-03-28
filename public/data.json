@@ -1,0 +1,35 @@
+{
+  "data" : [
+    {
+      "id": 1,
+      "name": "ruslan",
+      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
+      "price": 2000
+
+    },
+    {
+      "id": 1,
+      "name": "ruslan",
+      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
+      "price": 2000
+    },
+    {
+      "id": 1,
+      "name": "ruslan",
+      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
+      "price": 2000
+    }, {
+      "id": 1,
+      "name": "ruslan",
+      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
+      "price": 2000
+    },
+    {
+      "id": 1,
+      "name": "ruslan",
+      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
+      "price": 2000
+    }
+  ]
+
+}
