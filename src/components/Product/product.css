@@ -1,6 +1,6 @@
 .product_wrapper{
     flex:0 1 calc(25% - 5px);
-    cursor: pointer;
+
 }
 
 
@@ -133,6 +133,7 @@
     border: none;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
+
 }
 
 .product .product-body .product-btns>button:hover {
@@ -204,6 +205,7 @@
     border-radius: 40px;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
+
 }
 
 .product .add-to-cart .add-to-cart-btn>i {
@@ -228,4 +230,86 @@
 .product .add-to-cart .add-to-cart-btn:hover>i {
     opacity: 1;
     visibility: visible;
+}
+
+
+
+
+
+
+
+.bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+
+}
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+}
+
+
+.btn-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 6px;
+
+
+}
+
+.btn-wrapper ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    list-style: none;
+    padding: 0; margin: 0;
+
+}
+
+.btn-wrapper ul:first-of-type {
+    margin-bottom: 6px;
+}
+
+.btn-wrapper ul li {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+    font-weight: 600;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.btn-wrapper ul li.check {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+
+}
+.btn-wrapper ul li.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    text-decoration: line-through;
 }

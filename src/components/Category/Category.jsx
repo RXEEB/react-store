@@ -3,8 +3,11 @@ import React from 'react'
 import './category.css'
 
 
-export function Category ({items, onClickItem}) {
+function Category ({items, onClickItem}) {
     const [activeItem, setActiveItem] = React.useState(0)
+    const onSelectItem = (index) => {
+        setActiveItem(index)
+    }
 
     return (
         <div className='wrapper'>
@@ -14,7 +17,7 @@ export function Category ({items, onClickItem}) {
 
                     <li
                         className={activeItem === index ? 'active' : ''}
-                        onClick={() => setActiveItem(index)} key={`${name}_${index}`}>{name}</li>)}
+                        onClick={() => onSelectItem(index)} key={`${name}_${index}`}>{name}</li>)}
 
 
             </ul>
@@ -22,3 +25,5 @@ export function Category ({items, onClickItem}) {
         </div>
     )
 }
+
+export default Category

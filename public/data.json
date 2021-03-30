@@ -2,34 +2,85 @@
   "data" : [
     {
       "id": 1,
-      "name": "ruslan",
-      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
-      "price": 2000
+      "name": "Apple MacBook Pro ",
+      "img" : "img/mac1.webp",
+      "price": 20000,
+      "category": "Ноутбуки",
+      "types": [0,1],
+      "colors": ["Красный","Синий", "Зеленый"]
 
     },
     {
-      "id": 1,
-      "name": "ruslan",
-      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
-      "price": 2000
+      "id": 2,
+      "name": "Asus wd-36t",
+      "img" : "img/alaptop3.webp",
+      "price": 20000,
+      "category": "Ноутбуки",
+      "types": [0],
+      "colors": ["Красный","Синий"]
+
     },
     {
-      "id": 1,
-      "name": "ruslan",
-      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
-      "price": 2000
-    }, {
-      "id": 1,
-      "name": "ruslan",
-      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
-      "price": 2000
+      "id": 3,
+      "name": "Mi RedmiBook 14",
+      "img" : "img/xiaomi.webp",
+      "price": 25000,
+      "category": "Ноутбуки",
+      "types": [0,1],
+      "colors": ["Красный", "Зеленый"]
+
     },
     {
-      "id": 1,
-      "name": "ruslan",
-      "img" : "http://www.youloveit.ru/uploads/posts/2019-08/1565284946_red4.jpg",
-      "price": 2000
+      "id": 4,
+      "name": "Redmi Note 7",
+      "img" : "img/redmi.webp",
+      "price": 25000,
+      "category": "Смартфоны",
+      "types": [1],
+      "colors": ["Синий", "Зеленый"]
+
+    },
+    {
+      "id": 5,
+      "name": "Iphone 30",
+      "img" : "img/iphone.webp",
+      "price": 25000,
+      "category": "Смартфоны",
+      "types": [0,1],
+      "colors": ["Красный","Синий", "Зеленый"]
+
+    },
+    {
+      "id": 6,
+      "name": "Pixel Buds 2",
+      "img" : "img/google.webp",
+      "price": 8000,
+      "category": "Наушники",
+      "types": [1],
+      "colors": ["Красный","Зеленый"]
+
+    },
+    {
+      "id": 7,
+      "name": "Air Pods",
+      "img" : "img/air.webp",
+      "price": 10000,
+      "category": "Наушники",
+      "types": [0,1],
+      "colors": ["Красный","Синий"]
+
+    },
+    {
+      "id": 8,
+      "name": "Air Dots",
+      "img" : "img/airdots.webp",
+      "price": 10000,
+      "category": "Наушники",
+      "types": [0,1],
+      "colors": ["Красный","Синий", "Зеленый"]
+
     }
+
   ]
 
 }

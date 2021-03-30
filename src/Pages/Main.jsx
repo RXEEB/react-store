@@ -1,30 +1,22 @@
 import React from 'react'
-import {Category} from "../components/Category/Category";
+
 import {Product} from "../components/Product/Product";
 import style from './main.module.css'
+import Category from "../components/Category/Category";
 
 
-function Main() {
+function Main({items}) {
+
     return (
         <div>
-            <Category onClickItem={(name) => console.log(name)} items={[
-                'Все', 'Ноутбуки', 'Смартфоны', 'Фотоаппараты', 'Наушники'
-            ]}/>
+            <Category
+                onClickItem={(name) => console.log(name)}  items={[
+                'Все', 'Ноутбуки', 'Смартфоны', 'Наушники'
+            ]}
+            />
             <div className={style.grid}>
 
-                {/*<div className={style.product_item}>*/}
-                {/*    <Product/>*/}
-                {/*</div>*/}
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-
-
-
+                {items.map((obj) => <Product  {...obj}/>)}
 
             </div>
 

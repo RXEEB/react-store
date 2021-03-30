@@ -2,17 +2,20 @@ import React from "react";
 import './App.css';
 import Header from "./components/Header/Header";
 import Main from "./Pages/Main";
-import Cart from "./Pages/Cart";
+
+
 import {Route} from 'react-router-dom'
+import Cart from "./Pages/Cart";
 
 
 
 
-function App() {
+
+ function App() {
     const [data, setData] = React.useState([])
 
     React.useEffect(() => {
-            fetch('http://localhost:3000/db.json').then((resp) => resp.json()).then(json =>{
+            fetch('http://localhost:3000/data.json').then((resp) => resp.json()).then(json =>{
                 setData(json.data)
             })
         }, [])
@@ -20,14 +23,16 @@ function App() {
     return(
         <div className='App'>
             <Header/>
-            <Main/>
-            <Route path='/' render={() => <Main/> } exact />
+            <div className='content'>
+
+            <Route path='/' render={() => <Main items={data}/> } exact />
             <Route path='/cart' render={() => <Cart/> } exact />
+
+            </div>
         </div>
     )
 }
 export default App
-
 
 
 

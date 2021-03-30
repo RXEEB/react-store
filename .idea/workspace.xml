@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c502d6f-3f84-4395-adea-814d9fe5e903" name="Default Changelist" comment="" />
+    <list default="true" id="5c502d6f-3f84-4395-adea-814d9fe5e903" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category/Category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/Category.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category/category.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/category.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +68,10 @@
       <workItem from="1616886167652" duration="386000" />
       <workItem from="1616953352017" duration="5010000" />
       <workItem from="1616958414601" duration="1430000" />
+      <workItem from="1616959952177" duration="1831000" />
+      <workItem from="1616961819744" duration="1019000" />
+      <workItem from="1616963581038" duration="11823000" />
+      <workItem from="1617032740350" duration="22397000" />
     </task>
     <servers />
   </component>
@@ -68,5 +88,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

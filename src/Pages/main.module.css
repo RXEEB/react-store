@@ -13,3 +13,12 @@
 
 
 }
+.content{
+
+}
+@media (max-width: 575px) {
+    .grid{
+        flex-direction: column;
+
+    }
+}

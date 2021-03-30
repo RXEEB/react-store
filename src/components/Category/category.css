@@ -1,5 +1,5 @@
 .wrapper{
-
+    font-size: 14px;
     background: #0000;
     border-bottom: 2px solid #E4E7ED;
 
@@ -24,4 +24,10 @@
     color: #D10024;
 
 
+}
+
+.items li:hover{
+    color: #D10024;
+    background-color: transparent;
+    border-bottom: 3px solid #D10024;
 }
