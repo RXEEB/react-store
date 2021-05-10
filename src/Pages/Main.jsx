@@ -1,27 +1,38 @@
 import React from 'react'
 
-import {Product} from "../components/Product/Product";
+import Product from "../components/Product/Product";
 import style from './main.module.css'
 import Category from "../components/Category/Category";
+import Sort from '../components/SortPopUP/SortPop'
 
 
-function Main({items}) {
+function Main({items,index}) {
 
     return (
-        <div>
+        <>
+            <div className={style.subheader}>
             <Category
                 onClickItem={(name) => console.log(name)}  items={[
                 'Все', 'Ноутбуки', 'Смартфоны', 'Наушники'
             ]}
             />
-            <div className={style.grid}>
+            <div className={style.sort}>
+                <Sort items ={[{name: 'по пулярности', type: 'bestseller' },
+                {name: 'по цене', type: 'price' },
+                {name: 'по алфавиту', type: 'alphabet' }]}/>
 
-                {items.map((obj) => <Product  {...obj}/>)}
+                
+
 
             </div>
 
+            </div>
+            <div className={style.grid}>
 
-        </div>
+                {items.map((obj) => <Product key = {obj.id} {...obj} />)}
+
+            </div>
+        </>
     )
 }
 

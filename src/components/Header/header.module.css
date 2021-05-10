@@ -12,10 +12,12 @@
     margin: 0 auto;
     display: flex;
     width: 1200px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .topHeader_items a{
-    padding-right: 10px;
+    padding-right: 30px;
 }
 .topHeader_items a:hover{
     color: #D10024;
@@ -29,8 +31,31 @@
     background-color: #15161D;
 }
 .header_items{
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     width: 1200px;
+
+
+}
+
+.header__cart{
+    color: #FFFFFF;
+    display: flex;
+
+    background: #D10024;
+    align-items: center;
+    border-radius: 30px;
+
+
+
+
+}
+.cart_price{
+
+}
+.cart_items{
+    padding-left: 10px;
 
 
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import './product.css'
 import classNames from 'classnames'
 import { FaCartPlus } from 'react-icons/fa';
 
 
-export function Product ({name ,img, price, category, types, colors}) {
+function Product ({name ,img, price, category, types, colors}) {
 
     const [activeType, setActiveType] = React.useState(types[0]);
     const [activeColor, setActiveColor] = React.useState(colors[0]);
@@ -37,36 +38,7 @@ export function Product ({name ,img, price, category, types, colors}) {
                         <p className="product-category">{category}</p>
                         <h3 className="product-name">{name} </h3>
                         <h4 className="product-price">{price} руб.</h4>
-                        {/*<div className="product-rating">*/}
-                        {/*    <i className="fa fa-star"><FaStar/></i>*/}
-                        {/*    <i className="fa fa-star"><FaStar/></i>*/}
-                        {/*    <i className="fa fa-star"><FaStar/></i>*/}
-                        {/*    <i className="fa fa-star"><FaStarHalfAlt/></i>*/}
-                        {/*</div>*/}
-                        {/*<div className="product-btns">*/}
-                        {/*    <button className="add-to-wishlist"><i className="fa fa-heart-o"><FaApple/></i><span className="tooltipp">apple</span>*/}
-                        {/*    </button>*/}
-                        {/*    <button className="add-to-compare"><i className="fa fa-exchange"><FaAndroid/></i><span className="tooltipp">android</span>*/}
-                        {/*    </button>*/}
-                        {/*    <button className="quick-view"><i className="fa fa-eye"><SiXiaomi/></i><span className="tooltipp">xiaomi</span>*/}
-                        {/*    </button>*/}
-                        {/*</div>*/}
-
-                        {/*<div className="btn-wrapper">*/}
-                        {/*    <div className="btn ">*/}
-                        {/*        <button className="btn check">sdsd</button>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="btn-mid">*/}
-                        {/*        <button className="btn-mid">sdsds</button>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="btn-right">*/}
-                        {/*        <button className="btn">sdsds</button>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-
-
-
-                        <div className="btn-wrapper bouncy">
+                       <div className="btn-wrapper bouncy">
                             <ul >
 
                                     {availableTypes.map((type, index)=> <li
@@ -91,10 +63,6 @@ export function Product ({name ,img, price, category, types, colors}) {
 
                             </ul>
                         </div>
-
-
-
-
                     </div>
 
 
@@ -106,5 +74,30 @@ export function Product ({name ,img, price, category, types, colors}) {
         </div>
 
     )
-
 }
+
+
+
+Product.propTypes = {
+    name: PropTypes.string,
+    img:PropTypes.string,
+    category:PropTypes.string,
+    types:PropTypes.arrayOf(PropTypes.number).isRequired,
+    colors:PropTypes.array,
+    price:PropTypes.number,
+  };
+  Product.defaultProps = {
+    name: 'название отсутствует',
+    img: 'изображене отсутствует',
+    category: 'категория отсутствует',
+    colors: 'цвет отсутствует',
+    price: 'цена отсутствует',
+    price: 'цена отсутствует',
+
+  };
+
+export default Product
+
+
+
+

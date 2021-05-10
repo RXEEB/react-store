@@ -10,7 +10,7 @@ function Category ({items, onClickItem}) {
     }
 
     return (
-        <div className='wrapper'>
+        <div className='category_wrapper'>
             <ul className='items'>
 
                 {items.map((name, index)=>

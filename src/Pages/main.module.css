@@ -1,8 +1,26 @@
+.subheader{
+    width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #E4E7ED;
+
+}
+.subheader{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.sort{
+
+}
+
+
 .grid{
     margin: 0 auto;
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 
 

@@ -8,17 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Category/Category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/Category.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Category/category.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/category.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Product/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,12 @@
       <workItem from="1616959952177" duration="1831000" />
       <workItem from="1616961819744" duration="1019000" />
       <workItem from="1616963581038" duration="11823000" />
-      <workItem from="1617032740350" duration="22397000" />
+      <workItem from="1617032740350" duration="22697000" />
+      <workItem from="1617142437570" duration="2373000" />
+      <workItem from="1617359922639" duration="8545000" />
+      <workItem from="1617396248776" duration="12122000" />
+      <workItem from="1617784980645" duration="3752000" />
+      <workItem from="1618150524619" duration="2823000" />
     </task>
     <servers />
   </component>
