@@ -6,7 +6,7 @@ import { FaCartPlus } from 'react-icons/fa';
 
 
 function Product ({name ,img, price, category, types, colors}) {
-
+console.log(name)
     const [activeType, setActiveType] = React.useState(types[0]);
     const [activeColor, setActiveColor] = React.useState(colors[0]);
 
@@ -67,7 +67,7 @@ function Product ({name ,img, price, category, types, colors}) {
 
 
                     <div className="add-to-cart">
-                        <button className="add-to-cart-btn"><i className="fa fa-shopping-cart"><FaCartPlus/></i>в корзину</button>
+                        <button className="add-to-cart-btn"><i><FaCartPlus/></i>в корзину</button>
                     </div>
                 </div>
             </div>

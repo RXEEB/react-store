@@ -18,6 +18,7 @@ function Header() {
             <div className={style.header}>
                 <div className={style.header_items}>
                     <img src={logo} alt="logo"/>
+                   
 
                     <div className={style.header__cart}>
 

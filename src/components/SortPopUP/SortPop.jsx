@@ -37,15 +37,13 @@ function Sort({items}) {
             {visiblePopup &&
             <div className={style.sort__popup}>
                 <ul>
-                    {/* <li className={style.active}>Хит Продаж</li>
-                    <li>Цена</li>
-                    <li>Алфавит</li> */}
+                    
                     {items.map((obj, index)=>
 
                     <li
             onClick={() => onSelectItem(index)}
             className={activeItem === index ? style.active : ''}
-             key={`${obj}_${index}`}>{obj.name}</li>)}
+             key={`${obj.type}_${index}`}> {obj.name}</li>)}
                 </ul>
             </div>
             }

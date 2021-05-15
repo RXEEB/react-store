@@ -1,6 +1,7 @@
 .category_wrapper{
     font-size: 14px;
     background: #0000;
+    position: sticky;
     
 
 }

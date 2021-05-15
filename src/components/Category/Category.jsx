@@ -7,6 +7,7 @@ function Category ({items, onClickItem}) {
     const [activeItem, setActiveItem] = React.useState(0)
     const onSelectItem = (index) => {
         setActiveItem(index)
+        onClickItem(index)
     }
 
     return (
